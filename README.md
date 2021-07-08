@@ -6,10 +6,11 @@
 * Database:
   * NoSQL Firebase (Cloud Firestore)
 
-* Linguagem/Frameworks:
-  * Node JS
-  * Angular JS
-  * Express JS
+* Linguagens/Frameworks:
+  * NodeJS
+  * Typescript
+  * AngularJS
+  * Express 
 
 # INSTALAÇÃO E COMANDOS (BACKEND)
 
