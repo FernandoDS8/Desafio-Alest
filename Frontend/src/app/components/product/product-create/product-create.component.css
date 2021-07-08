@@ -1,0 +1,13 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+button {
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.save {
+    background-color:#8B0000;
+}

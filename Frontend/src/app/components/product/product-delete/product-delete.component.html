@@ -1,0 +1,33 @@
+<mat-card>
+    <mat-card-title>Excluir Livro</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" 
+                [(ngModel)]="product.nome_livro" name="nome_livro" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Autor" 
+                [(ngModel)]="product.autor" name="autor" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Ano de Lançamento" 
+                [(ngModel)]="product.ano_lancamento" name="ano_lancamento" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Páginas" 
+                [(ngModel)]="product.paginas" name="paginas" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" 
+                [(ngModel)]="product.preco" name="preco" disabled>
+        </mat-form-field>
+    </form>
+    
+    <button class="save" mat-raised-button (click)="deleteProduct()" >
+        Excluir
+    </button>
+    
+    <button mat-raised-button (click)="cancel()" color="">
+        cancelar
+    </button>
+</mat-card>
